@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #1da006;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.btn-secondary:not(:disabled):not(.disabled) {
+  background-color: green;  
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active {
+  background-color: darkgreen;  
+}
+
+.navbar-light .navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+}
+
+.d-inline-block {
+  margin: 1rem;
+  vertical-align: middle;
+}
+/*
+body {
+  background-image: url('./assets/dog_and_owner_in_front_of_a_cliff.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+*/
+nav.navbar.navbar-expand-md.navbar-light.bg-faded {
+  background-color: transparent;  
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  margin-right: 1rem;
+}
